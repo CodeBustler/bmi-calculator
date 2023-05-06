@@ -25,5 +25,5 @@ function calculateBMI() {
   } else if (bmiRange > 40) {
     classification = 'Obese Class III';
   }
-  showOutput.innerHTML = `BMI Range: ${bmiRange} Classification: ${classification} `;
+  showOutput.innerHTML = `BMI Range: ${bmiRange} | ${classification} `;
 }
